@@ -67,3 +67,55 @@ ul li a::after {
     transform: scaleX(0);
     transform-origin: left;
 }
+
+ul li a::after {
+    translate: scaleX(1);
+    transform-origin: left;
+}
+
+/* HERO and EMAIL Section */
+
+.hero-section {
+    max-width: 1280px;
+    margin: 0 auto 160px;
+    padding: 5px 80px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section img {
+    width: 50%;
+    height: 50%;
+}
+
+.hero-email-capture h1 {
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 2.5rem;
+    margin-top: 30px;
+}
+
+.submit-button {
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    padding: 14px 65px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 15px;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-animation: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    -webkit-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.07);
+    -moz-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.07);
+    box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.07);
+}
+
+.submit-button:hover {
+    webkit-transition: all 200ms ease-in-out;
+    -moz-animation: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    -webkit-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.07);
+    -moz-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.07);
+    box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.07);   
+]
