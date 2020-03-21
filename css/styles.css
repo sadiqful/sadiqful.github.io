@@ -25,3 +25,119 @@ p {
     flex-direction: row;
     justify-content: space-between;
 }
+
+.nav-bar img{
+    cursor: pointer;
+}
+
+.nav-link-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link-container li {
+    display: inline;
+    text-decoration: none;
+}
+
+.nav-link-container li:nth-child(2) {
+    margin: 0 53px;
+}
+
+.nav-link-container li a {
+    color: #000;
+    text-decoration: none;
+}
+
+ul li a {
+    position: relative;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+ul li a::after {
+    position: relative;
+    content: '';
+    width: 100%;
+    height: 3px;
+    top: 100%;
+    left: 0;
+    background: hsl(224, 93%, 58%);
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+ul li a::after {
+    translate: scaleX(1);
+    transform-origin: left;
+}
+
+/* HERO and EMAIL Section */
+
+.hero-section {
+    max-width: 1280px;
+    margin: 0 auto 160px;
+    padding: 5px 80px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section img {
+    width: 50%;
+    height: 50%;
+}
+
+.hero-email-capture h1 {
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 2.5rem;
+    margin-top: 30px;
+}
+
+.submit-button {
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    padding: 14px 65px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 15px;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-animation: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    -webkit-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.07);
+    -moz-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.07);
+    box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.07);
+}
+
+.submit-button:hover {
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-animation: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    -webkit-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.07);
+    -moz-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.07);
+    box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.07);   
+}
+
+.enter-email {
+    padding: 10px;
+    text-align: left;
+    width: 40%;
+    height: 20px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+/* WAVE PHoTOS FOR DESKTOP AND MOBILE*/
+
+.wave-mobile {
+    display: none;
+    width: 100%;
+}
+
+.wave-desktop {
+    width: 100%;
+}
+
+
