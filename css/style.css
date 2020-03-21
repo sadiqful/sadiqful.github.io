@@ -119,3 +119,23 @@ ul li a::after {
     -moz-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.07);
     box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.07);   
 }
+
+.enter-email {
+    padding: 10px;
+    text-align: left;
+    width: 40%;
+    height: 20px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+/* WAVE PHoTOS FOR DESKTOP AND MOBILE*/
+
+.wave-mobile {
+    display: none;
+    width: 100%;
+}
+
+.wave-desktop {
+    width: 100%;
+}
